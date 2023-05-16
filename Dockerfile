@@ -1,4 +1,4 @@
-FROM artifactory.nordstrom.com/docker/cic/nodejs_runtime_v18:2.1.0
+FROM node:lts
 
 WORKDIR /clean_api_svc
 
