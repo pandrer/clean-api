@@ -15,7 +15,7 @@ This is a Clean Architecture-based REST API project built with Node.js, TypeScri
 ## Project Structure
 
 The project follows the Clean Architecture principles by Uncle Bob, providing separation of concerns and a highly testable and scalable codebase. The directory structure is organized as follows:
-
+```bash
 ├── src
 │ ├── controllers
 │ ├── interactors
@@ -28,6 +28,7 @@ The project follows the Clean Architecture principles by Uncle Bob, providing se
 ├── database
 ├── tests
 └── scripts
+```
 
 
 - `src`: Contains the source code of the application.
