@@ -82,6 +82,7 @@ The project includes unit and integration tests using Jest and Supertest. To run
     ```bash
     npm test
     ```
+    
 ## API Documentation
 The API documentation can be found in the OpenAPI (Swagger) format. Start the server and access the documentation at `http://localhost:3000/api-docs.`
 
