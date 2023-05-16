@@ -1,0 +1,36 @@
+{
+  "name": "clean-api",
+  "version": "1.0.0",
+  "description": "api rest based on uncle bob arch",
+  "main": "src/frameworks/express/server.ts",
+  "scripts": {
+    "test": "jest",
+    "format": "npx prettier --write \"src/**/*.ts\"",
+    "sequelize:migrate": "sequelize-cli db:migrate",
+    "sequelize:seed": "sequelize-cli db:seed:all",
+    "sequelize:generate:migration": "sequelize-cli migration:generate",
+    "sequelize:generate:seed": "sequelize-cli seed:generate"
+  },
+  "repository": {
+    "type": "git",
+    "url": "pandrer-clean-ts-api"
+  },
+  "keywords": [
+    "clean",
+    "architecture"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/dotenv": "^8.2.0",
+    "dotenv": "^16.0.3",
+    "pg": "^8.11.0",
+    "sequelize": "^6.31.1",
+    "sequelize-cli": "^6.6.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.8",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  }
+}
