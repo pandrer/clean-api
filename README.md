@@ -80,8 +80,9 @@ The project follows the Clean Architecture principles by Uncle Bob, providing se
 The project includes unit and integration tests using Jest and Supertest. To run the tests, use the following command:
     
     ```bash
-    npm test
+    npm run test
     ```
+
     
 ## API Documentation
 The API documentation can be found in the OpenAPI (Swagger) format. Start the server and access the documentation at `http://localhost:3000/api-docs.`
